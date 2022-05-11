@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ju9kyiTYnGBQRsVJ1CbDQ5tJM6ttUhY77E7hUisSBt8=",
+  "Source": "ManagementCodes.ManagementCodesApi",
+  "BasePath": "_content/ManagementCodes.ManagementCodesApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

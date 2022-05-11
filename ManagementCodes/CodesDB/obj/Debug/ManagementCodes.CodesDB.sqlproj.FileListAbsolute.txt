@@ -1,0 +1,8 @@
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\bin\Debug\ManagementCodes.CodesDB.dacpac
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\ManagementCodes.CodesDB.sqlproj.AssemblyReference.cache
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\Model.xml
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\refactor.xml
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\postdeploy.sql
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\predeploy.sql
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\CodesDB.dll
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\CodesDB.pdb

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementCodes.ManagementCodesApi", "ManagementCodes.ManagementCodesApi\ManagementCodes.ManagementCodesApi.csproj", "{65DB2B77-99E7-424D-B123-ACEFEDA09ECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementCodes.ManagementCodesApi", "ManagementCodes.ManagementCodesApi\ManagementCodes.ManagementCodesApi.csproj", "{65DB2B77-99E7-424D-B123-ACEFEDA09ECF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ManagementCodes.CodesDB", "CodesDB\ManagementCodes.CodesDB.sqlproj", "{7AA1321B-D227-44B0-85F7-2FF8C2819028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{65DB2B77-99E7-424D-B123-ACEFEDA09ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65DB2B77-99E7-424D-B123-ACEFEDA09ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65DB2B77-99E7-424D-B123-ACEFEDA09ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA1321B-D227-44B0-85F7-2FF8C2819028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA1321B-D227-44B0-85F7-2FF8C2819028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA1321B-D227-44B0-85F7-2FF8C2819028}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7AA1321B-D227-44B0-85F7-2FF8C2819028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA1321B-D227-44B0-85F7-2FF8C2819028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA1321B-D227-44B0-85F7-2FF8C2819028}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
