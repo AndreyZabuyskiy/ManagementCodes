@@ -63,6 +63,11 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Code.sql" />
     <Build Include="dbo\StoredProcedures\spCode_GetAll.sql" />
-    <Build Include="Script.PostDeveloyment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ManagementCodes.CodesDB.publish.xml" />
   </ItemGroup>
 </Project>

@@ -6,3 +6,5 @@ D:\Программирование\Projects\ManagementCodesProject\ManagementCo
 D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\predeploy.sql
 D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\CodesDB.dll
 D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\obj\Debug\CodesDB.pdb
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\bin\Debug\CodesDB.dll
+D:\Программирование\Projects\ManagementCodesProject\ManagementCodes\CodesDB\bin\Debug\CodesDB.pdb
