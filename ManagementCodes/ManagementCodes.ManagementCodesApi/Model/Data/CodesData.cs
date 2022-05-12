@@ -3,7 +3,7 @@ using ManagementCodes.ManagementCodesApi.Model.Entities;
 
 namespace ManagementCodes.ManagementCodesApi.Model.Data;
 
-public class CodesData
+public class CodesData : ICodesData
 {
     public readonly ISqlDataAccess _db;
 
