@@ -22,7 +22,7 @@ const UpdateCode = () => {
     setTextName(e.target.value);
   }
 
-  const clickButtonChange = () => {
+  const clickButtonChange = e => {
     const id = textId;
     const value = textValue;
     const name = textName;
@@ -32,17 +32,19 @@ const UpdateCode = () => {
     setTextValue("");
 
     dispatch(changeCodeThunk({
-      id, name, value 
+      id: id,
+      name: name,
+      value: value
     }));
   }
 
   return (
   <div>
     <div>
-      <input className={style.input} type="text" placeholder="Id" onChange={handleChangeId} />
+      <input className={style.input} type="number" placeholder="Id" onChange={handleChangeId} />
     </div>
     <div>
-      <input className={style.input} type="text" placeholder="Value" onChange={handleChangeValue} />
+      <input className={style.input} type="number" placeholder="Value" onChange={handleChangeValue} />
     </div>
     <div>
       <input className={style.input} type="text" placeholder="Name" onChange={handleChangeName} />
