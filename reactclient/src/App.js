@@ -1,10 +1,14 @@
 import './App.css';
-import Codes from './Components/Codes.jsx';
+import Codes from './Components/Codes/Codes.jsx';
+import UpdateCodes from './Components/UpdateCodes/UpdateCodes';
 
 function App() {
   return (
     <div className="App">
-      <Codes />
+      <div className='content'>
+        <UpdateCodes />
+        <Codes />
+      </div>
     </div>
   );
 }

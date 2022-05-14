@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadCodesThunk } from '../redux/Thunks/codesThunk';
+import { loadCodesThunk } from '../../redux/Thunks/codesThunk';
+import UpdateCodes from '../UpdateCodes/UpdateCodes';
 
 function Codes(props) {
   const codes = useSelector(state => {
