@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { loadCodesThunk } from '../../redux/Thunks/codesThunk';
-import UpdateCodes from '../UpdateCode/UpdateCode';
+import style from './Codes.module.css';
 
 function Codes(props) {
   const codes = useSelector(state => {
@@ -17,7 +17,7 @@ function Codes(props) {
 
   const codesElements = codes.map(code =>
     <div>
-      <span>{ code.value } { code.name }</span>
+      <span className={style.text}>{ code.value } { code.name }</span>
     </div>
   );
 

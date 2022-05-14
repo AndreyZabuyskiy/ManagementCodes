@@ -11,7 +11,9 @@ function App() {
           <UpdateCode />
           <CreateCode />
         </div>
-        <Codes />
+        <div className='codes'>
+          <Codes />
+        </div>
       </div>
     </div>
   );

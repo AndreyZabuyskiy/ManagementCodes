@@ -1,13 +1,7 @@
 import { CODES_LOAD } from "../Types";
 
 const initialState = {
-  codes: [
-    {
-      id: 1,
-      value: "123",
-      name: "Vodafone"
-    }
-  ]
+  codes: []
 }
 
 export const codesReducer = (state = initialState, action) => {
