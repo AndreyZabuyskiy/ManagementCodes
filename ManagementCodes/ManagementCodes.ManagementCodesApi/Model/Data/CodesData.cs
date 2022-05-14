@@ -14,4 +14,7 @@ public class CodesData : ICodesData
 
     public async Task<IEnumerable<Code>> GetCodesAsync() =>
         await _db.LoadData<Code, dynamic>("spCode_GetAll", new { });
+
+    public async Task InsertCode(Code code) =>
+        await _db.SaveData("spCode_Insert", new { code.Value, code.Name });
 }

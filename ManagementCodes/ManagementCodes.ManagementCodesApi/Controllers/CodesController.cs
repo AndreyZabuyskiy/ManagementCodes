@@ -28,4 +28,18 @@ public class CodesController : ControllerBase
             return Problem(ex.Message);
         }
     }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateCodeAsync(Code code)
+    {
+        try
+        {
+            await _data.InsertCode(code);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return Problem(ex.Message);
+        }
+    }
 }

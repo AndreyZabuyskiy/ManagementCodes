@@ -5,4 +5,5 @@ namespace ManagementCodes.ManagementCodesApi.Model.Data;
 public interface ICodesData
 {
     Task<IEnumerable<Code>> GetCodesAsync();
+    Task InsertCode(Code code);
 }
