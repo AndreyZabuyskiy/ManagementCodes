@@ -1,6 +1,6 @@
-import style from './UpdateCodes.module.css';
+import style from './UpdateCode.module.css';
 
-const UpdateCodes = () => {
+const UpdateCode = () => {
   return (
   <div>
     <div>
@@ -19,4 +19,4 @@ const UpdateCodes = () => {
   );
 }
 
-export default UpdateCodes;
+export default UpdateCode;
