@@ -42,4 +42,18 @@ public class CodesController : ControllerBase
             return Problem(ex.Message);
         }
     }
+
+    [HttpPut]
+    public async Task<IActionResult> UpdateCodeAsync(Code code)
+    {
+        try
+        {
+            await _data.UpdateCode(code);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return Problem(ex.Message);
+        }
+    }
 }

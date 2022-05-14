@@ -17,4 +17,7 @@ public class CodesData : ICodesData
 
     public async Task InsertCode(Code code) =>
         await _db.SaveData("spCode_Insert", new { code.Value, code.Name });
+
+    public async Task UpdateCode(Code code) =>
+        await _db.SaveData("spCode_Update", code);
 }

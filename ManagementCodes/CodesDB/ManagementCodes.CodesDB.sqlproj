@@ -64,6 +64,7 @@
     <Build Include="dbo\Tables\Code.sql" />
     <Build Include="dbo\StoredProcedures\spCode_GetAll.sql" />
     <Build Include="dbo\StoredProcedures\spCode_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spCode_Update.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

@@ -6,4 +6,5 @@ public interface ICodesData
 {
     Task<IEnumerable<Code>> GetCodesAsync();
     Task InsertCode(Code code);
+    Task UpdateCode(Code code);
 }
