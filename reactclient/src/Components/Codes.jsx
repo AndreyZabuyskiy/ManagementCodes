@@ -1,17 +1,31 @@
-import { connect } from 'react-redux';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { loadCodesThunk } from '../redux/Thunks/codesThunk';
 
 function Codes(props) {
+  const codes = useSelector(state => {
+    const { codesReducer } = state;
+    return codesReducer.codes;
+  });
+  
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadCodesThunk());
+  }, []);
+
+  const codesElements = codes.map(code =>
+    <div>
+      <span>{ code.value } { code.name }</span>
+    </div>
+  );
+
   return (
-    <div>Codes component</div>
+    <div>
+      Codes component
+      { codesElements }
+    </div>
   );
 }
 
-function mapStateToProps(state){
-  const { codesReducer } = state;
-
-  return {
-    codes: codesReducer.codes
-  }
-}
-
-export default connect(mapStateToProps)(Codes);
+export default Codes;

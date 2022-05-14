@@ -12,6 +12,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddTransient<ICodesData, CodesData>();
 
+builder.Services.AddCors(options => options.AddDefaultPolicy(
+    builder => builder.AllowAnyOrigin()
+));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -20,6 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 

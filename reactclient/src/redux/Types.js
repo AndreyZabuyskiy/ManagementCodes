@@ -1,0 +1,1 @@
+export const CODES_LOAD = 'CODES_LOAD';
