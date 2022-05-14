@@ -13,7 +13,9 @@ builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddTransient<ICodesData, CodesData>();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(
-    builder => builder.AllowAnyOrigin()
+    builder => builder.WithOrigins("http://localhost:3000")
+                            .AllowAnyHeader()
+                            .AllowAnyMethod()
 ));
 
 var app = builder.Build();

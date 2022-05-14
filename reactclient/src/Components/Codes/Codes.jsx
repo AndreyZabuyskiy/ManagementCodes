@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loadCodesThunk } from '../../redux/Thunks/codesThunk';
 import style from './Codes.module.css';
 
-function Codes(props) {
+const Codes = props => {
   const codes = useSelector(state => {
     const { codesReducer } = state;
     return codesReducer.codes;

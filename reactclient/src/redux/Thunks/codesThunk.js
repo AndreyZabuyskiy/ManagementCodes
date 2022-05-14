@@ -8,3 +8,23 @@ export const loadCodesThunk = () => {
     });
   }
 }
+
+export const createCodeThunk = (code) => {
+  return async dispatch => {
+    axios.post("https://localhost:7030/api/Codes", code).then(responce => {
+      if(responce.status === 200){
+        dispatch(loadCodesThunk());
+      }
+    });
+  }
+}
+
+export const changeCodeThunk = (code) => {
+  return async dispatch => {
+    axios.put("https://localhost:7030/api/Codes", code).then(responce => {
+      if(responce.status === 200){
+        dispatch(loadCodesThunk());
+      }
+    });
+  }
+}
